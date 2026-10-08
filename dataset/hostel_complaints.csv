@@ -1,0 +1,601 @@
+Complaint_ID,Hostel_Block,Room_Number,Complaint_Type,Location,Severity,Season,Days_Pending,Previous_Complaints,Affected_Rooms,Staff_Available,Resolution_Time_Days,Priority
+C0001,A,403,Fan/AC,Bathroom,High,Summer,3,3,2,1,5.1,High
+C0002,D,213,Cleaning,Bathroom,Low,Summer,3,8,5,1,2.9,High
+C0003,B,211,Cleaning,Study Room,High,Monsoon,0,2,6,4,3.1,Urgent
+C0004,A,474,Plumbing,Corridor,Low,Summer,1,5,3,5,2.2,Medium
+C0005,C,396,Cleaning,Study Room,Urgent,Summer,6,1,5,3,3.0,Urgent
+C0006,D,243,Electricity,Mess,Low,Summer,3,4,1,2,2.7,Medium
+C0007,A,412,Cleaning,Mess,Low,Monsoon,5,3,6,3,2.8,High
+C0008,B,451,Fan/AC,Room,High,Winter,2,7,4,3,5.2,Urgent
+C0009,C,209,Wi-Fi,Bathroom,High,Summer,5,6,3,1,4.9,Urgent
+C0010,C,483,Fan/AC,Common Area,High,Monsoon,7,2,3,2,5.3,Urgent
+C0011,A,157,Furniture,Common Area,Medium,Winter,3,2,5,4,3.8,High
+C0012,D,371,Electricity,Mess,High,Summer,6,9,1,4,4.2,Urgent
+C0013,C,158,Wi-Fi,Study Room,Medium,Summer,1,10,5,3,4.0,Urgent
+C0014,C,428,Wi-Fi,Common Area,Medium,Summer,4,8,2,5,3.7,High
+C0015,D,110,Furniture,Study Room,Low,Summer,2,8,5,1,4.2,High
+C0016,A,490,Water Leakage,Corridor,Low,Monsoon,3,9,1,1,2.8,Medium
+C0017,B,377,Furniture,Room,Medium,Summer,2,4,5,5,3.8,High
+C0018,D,162,Plumbing,Mess,Low,Winter,4,6,6,3,3.5,High
+C0019,A,218,Electricity,Room,Medium,Summer,3,9,2,1,3.4,High
+C0020,B,471,Water Leakage,Bathroom,Low,Monsoon,3,4,6,4,2.2,High
+C0021,D,282,Furniture,Study Room,Low,Monsoon,7,6,2,1,4.1,High
+C0022,C,510,Cleaning,Common Area,High,Monsoon,0,10,6,1,3.8,Urgent
+C0023,B,139,Plumbing,Bathroom,Low,Summer,7,2,4,2,3.6,High
+C0024,D,210,Cleaning,Study Room,Low,Summer,0,1,2,2,1.5,Low
+C0025,D,180,Plumbing,Common Area,Low,Summer,0,6,3,4,2.3,Medium
+C0026,B,130,Electricity,Corridor,Urgent,Summer,0,5,1,1,2.4,High
+C0027,B,397,Furniture,Bathroom,Low,Summer,1,10,2,4,2.9,Medium
+C0028,D,168,Furniture,Bathroom,Low,Winter,5,4,2,3,3.5,Medium
+C0029,A,138,Fan/AC,Mess,Medium,Monsoon,1,0,4,5,3.6,High
+C0030,D,379,Furniture,Room,Low,Winter,5,1,2,3,3.3,Medium
+C0031,A,169,Fan/AC,Corridor,Urgent,Winter,0,10,5,3,3.9,Urgent
+C0032,C,205,Wi-Fi,Bathroom,High,Summer,2,4,3,5,3.7,Urgent
+C0033,A,102,Fan/AC,Mess,Medium,Monsoon,4,0,1,4,3.7,Medium
+C0034,A,139,Wi-Fi,Room,Urgent,Winter,2,7,5,4,3.2,Urgent
+C0035,A,258,Fan/AC,Room,Low,Winter,5,9,5,2,4.2,Urgent
+C0036,D,418,Wi-Fi,Bathroom,Low,Monsoon,3,10,1,3,3.1,Medium
+C0037,C,501,Fan/AC,Room,High,Summer,2,6,1,2,4.8,High
+C0038,A,341,Cleaning,Mess,High,Winter,4,2,6,1,4.3,Urgent
+C0039,C,136,Electricity,Room,Medium,Monsoon,3,3,1,2,3.0,Medium
+C0040,A,234,Plumbing,Corridor,Medium,Monsoon,6,10,5,3,5.0,Urgent
+C0041,A,298,Electricity,Study Room,Low,Monsoon,6,5,6,3,3.3,Urgent
+C0042,B,287,Furniture,Room,Low,Monsoon,6,0,5,5,3.7,High
+C0043,D,268,Cleaning,Bathroom,High,Winter,5,10,1,3,3.9,Urgent
+C0044,B,416,Cleaning,Mess,Medium,Monsoon,3,6,6,4,3.2,Urgent
+C0045,C,339,Furniture,Corridor,Medium,Monsoon,0,4,3,2,3.9,High
+C0046,C,148,Cleaning,Common Area,Low,Winter,7,2,6,1,3.1,Urgent
+C0047,D,413,Plumbing,Room,Medium,Winter,3,2,1,1,3.5,Medium
+C0048,A,485,Plumbing,Bathroom,Medium,Monsoon,3,6,4,4,3.5,High
+C0049,A,334,Plumbing,Bathroom,Low,Monsoon,7,0,5,2,4.1,High
+C0050,D,182,Electricity,Common Area,Medium,Winter,5,7,5,5,3.4,Urgent
+C0051,B,241,Fan/AC,Common Area,Low,Monsoon,3,10,3,5,3.2,High
+C0052,B,219,Cleaning,Bathroom,Low,Winter,4,5,3,5,1.6,High
+C0053,D,132,Cleaning,Mess,High,Summer,1,6,4,3,3.5,Urgent
+C0054,C,253,Electricity,Common Area,High,Monsoon,0,9,4,4,3.4,Urgent
+C0055,A,300,Plumbing,Common Area,Medium,Monsoon,3,7,2,3,3.7,High
+C0056,D,404,Wi-Fi,Mess,High,Winter,2,7,2,5,3.9,Urgent
+C0057,D,268,Furniture,Mess,Low,Summer,6,2,4,2,3.8,High
+C0058,D,110,Electricity,Common Area,Medium,Monsoon,6,4,4,3,4.0,Urgent
+C0059,A,487,Fan/AC,Study Room,Urgent,Summer,5,3,6,1,4.6,Urgent
+C0060,B,339,Water Leakage,Room,High,Summer,2,3,2,4,3.4,High
+C0061,C,395,Fan/AC,Corridor,Low,Monsoon,1,2,3,1,3.3,Medium
+C0062,C,451,Fan/AC,Common Area,High,Monsoon,3,1,5,2,4.8,Urgent
+C0063,C,107,Furniture,Bathroom,High,Winter,5,8,4,3,5.3,Urgent
+C0064,C,416,Plumbing,Common Area,Low,Monsoon,5,10,4,2,3.8,High
+C0065,D,225,Plumbing,Study Room,Medium,Monsoon,4,5,2,1,4.0,High
+C0066,B,350,Plumbing,Common Area,Medium,Winter,6,5,1,4,4.0,High
+C0067,A,224,Electricity,Corridor,Medium,Monsoon,4,8,1,5,3.2,High
+C0068,A,148,Fan/AC,Common Area,Medium,Monsoon,3,7,6,4,4.3,Urgent
+C0069,C,318,Wi-Fi,Room,Medium,Monsoon,4,10,5,3,4.2,Urgent
+C0070,B,262,Fan/AC,Study Room,Medium,Monsoon,7,4,3,3,4.4,Urgent
+C0071,C,152,Water Leakage,Mess,Urgent,Winter,2,3,2,4,1.8,Urgent
+C0072,A,128,Plumbing,Room,Low,Monsoon,2,4,1,5,2.0,Medium
+C0073,D,326,Furniture,Corridor,High,Winter,7,1,1,5,4.7,Urgent
+C0074,A,178,Wi-Fi,Room,Low,Summer,7,1,1,4,2.9,Medium
+C0075,B,498,Electricity,Study Room,Low,Monsoon,3,1,5,4,2.5,High
+C0076,A,413,Furniture,Common Area,High,Monsoon,4,9,4,3,5.5,Urgent
+C0077,A,181,Fan/AC,Bathroom,Medium,Summer,4,10,1,2,4.2,High
+C0078,C,460,Water Leakage,Common Area,Medium,Monsoon,7,4,1,2,3.4,High
+C0079,B,432,Plumbing,Common Area,Medium,Summer,4,10,5,2,4.5,Urgent
+C0080,D,164,Electricity,Corridor,Low,Summer,2,4,5,5,2.5,High
+C0081,A,322,Cleaning,Mess,Medium,Monsoon,4,8,5,4,3.1,Urgent
+C0082,A,492,Fan/AC,Corridor,Low,Winter,1,3,6,5,3.0,High
+C0083,B,400,Fan/AC,Corridor,Low,Winter,2,7,5,4,3.6,High
+C0084,A,183,Cleaning,Mess,Urgent,Monsoon,7,5,4,3,2.9,Urgent
+C0085,C,266,Wi-Fi,Common Area,Medium,Winter,6,8,1,4,3.5,High
+C0086,B,366,Water Leakage,Common Area,High,Winter,0,10,5,4,3.6,Urgent
+C0087,C,325,Wi-Fi,Study Room,Medium,Monsoon,0,3,3,5,2.5,Medium
+C0088,D,148,Fan/AC,Common Area,Low,Summer,3,2,3,5,2.5,Medium
+C0089,C,313,Electricity,Bathroom,High,Monsoon,2,7,6,3,4.3,Urgent
+C0090,B,136,Plumbing,Common Area,Low,Monsoon,2,6,2,5,2.4,Medium
+C0091,D,177,Wi-Fi,Common Area,High,Monsoon,4,0,3,3,4.6,Urgent
+C0092,B,393,Cleaning,Study Room,Medium,Monsoon,6,7,3,2,3.9,Urgent
+C0093,A,165,Cleaning,Room,Low,Monsoon,7,6,4,2,3.1,High
+C0094,B,310,Furniture,Study Room,High,Monsoon,7,1,5,4,5.1,Urgent
+C0095,C,446,Plumbing,Mess,Low,Summer,4,5,5,4,3.3,High
+C0096,C,217,Plumbing,Study Room,Urgent,Monsoon,7,8,1,5,3.1,Urgent
+C0097,A,267,Fan/AC,Bathroom,Urgent,Monsoon,1,7,2,3,3.5,Urgent
+C0098,B,188,Plumbing,Bathroom,Medium,Monsoon,6,2,2,5,3.5,High
+C0099,C,336,Electricity,Bathroom,High,Winter,3,7,5,2,4.4,Urgent
+C0100,D,277,Wi-Fi,Mess,High,Summer,7,4,6,5,4.7,Urgent
+C0101,D,155,Furniture,Corridor,Urgent,Winter,4,7,3,2,4.5,Urgent
+C0102,A,411,Electricity,Common Area,Medium,Winter,4,4,1,4,2.7,High
+C0103,C,448,Fan/AC,Common Area,High,Monsoon,3,9,3,2,5.3,Urgent
+C0104,D,118,Plumbing,Mess,Medium,Winter,2,10,1,1,3.8,High
+C0105,B,503,Furniture,Corridor,Low,Winter,4,5,6,4,3.6,High
+C0106,C,483,Furniture,Corridor,Medium,Winter,4,2,3,4,4.4,High
+C0107,C,147,Plumbing,Corridor,Medium,Summer,1,2,2,4,3.3,Medium
+C0108,C,156,Plumbing,Common Area,Low,Summer,1,7,3,3,2.9,Medium
+C0109,D,459,Fan/AC,Room,Low,Monsoon,5,9,2,1,4.2,High
+C0110,B,376,Wi-Fi,Mess,Low,Monsoon,0,0,3,4,1.8,Medium
+C0111,A,351,Electricity,Common Area,Medium,Monsoon,6,9,6,2,4.7,Urgent
+C0112,C,151,Furniture,Common Area,Low,Monsoon,5,3,4,4,4.0,High
+C0113,A,333,Fan/AC,Corridor,High,Winter,5,0,4,3,4.8,Urgent
+C0114,B,136,Water Leakage,Mess,Medium,Summer,0,0,3,2,2.8,Medium
+C0115,B,167,Plumbing,Study Room,Medium,Summer,3,5,2,5,2.9,High
+C0116,B,402,Furniture,Corridor,Low,Summer,0,2,1,3,2.9,Low
+C0117,D,330,Wi-Fi,Bathroom,Low,Summer,2,6,5,1,3.6,High
+C0118,C,335,Plumbing,Corridor,Medium,Winter,7,8,2,5,3.7,Urgent
+C0119,D,138,Fan/AC,Bathroom,Urgent,Summer,6,6,6,1,4.7,Urgent
+C0120,C,296,Water Leakage,Corridor,Low,Winter,2,4,5,5,2.0,High
+C0121,B,321,Furniture,Study Room,Medium,Monsoon,6,1,6,1,5.4,Urgent
+C0122,C,441,Cleaning,Room,Medium,Monsoon,7,6,4,1,3.8,Urgent
+C0123,A,482,Wi-Fi,Corridor,Medium,Summer,7,1,1,1,3.9,High
+C0124,D,470,Fan/AC,Corridor,Medium,Summer,5,10,1,4,4.0,High
+C0125,D,215,Water Leakage,Corridor,Medium,Winter,1,9,5,2,3.1,Urgent
+C0126,D,388,Plumbing,Bathroom,High,Monsoon,5,1,3,5,4.1,Urgent
+C0127,C,460,Plumbing,Study Room,Medium,Winter,0,9,6,3,3.5,Urgent
+C0128,A,147,Plumbing,Corridor,Medium,Monsoon,2,2,5,4,3.2,High
+C0129,C,498,Fan/AC,Study Room,Medium,Summer,7,5,2,3,4.4,Urgent
+C0130,C,327,Furniture,Study Room,High,Summer,2,2,5,1,5.4,Urgent
+C0131,D,157,Fan/AC,Common Area,Medium,Monsoon,6,4,2,5,3.7,High
+C0132,A,104,Wi-Fi,Mess,Medium,Winter,4,0,2,4,3.6,High
+C0133,D,190,Electricity,Corridor,High,Summer,4,4,3,1,4.1,Urgent
+C0134,D,140,Electricity,Common Area,High,Winter,5,1,4,1,4.6,Urgent
+C0135,A,267,Plumbing,Corridor,Medium,Winter,6,10,4,3,4.3,Urgent
+C0136,D,369,Electricity,Study Room,High,Monsoon,5,1,4,1,4.4,Urgent
+C0137,A,372,Water Leakage,Common Area,High,Monsoon,3,5,2,1,4.1,Urgent
+C0138,B,409,Furniture,Room,Medium,Monsoon,2,3,1,2,3.7,Medium
+C0139,C,422,Electricity,Mess,Low,Summer,7,7,5,5,3.1,Urgent
+C0140,C,360,Wi-Fi,Room,Low,Monsoon,7,10,3,3,3.8,Urgent
+C0141,A,415,Water Leakage,Corridor,Medium,Monsoon,0,5,3,1,3.0,High
+C0142,D,357,Furniture,Study Room,Medium,Monsoon,0,7,5,2,4.2,High
+C0143,D,325,Electricity,Bathroom,Low,Monsoon,5,1,5,2,2.7,High
+C0144,A,505,Furniture,Study Room,Low,Winter,5,4,4,4,3.9,High
+C0145,B,271,Fan/AC,Mess,Low,Monsoon,1,8,6,4,3.2,High
+C0146,A,259,Water Leakage,Study Room,Low,Winter,5,4,6,4,2.5,High
+C0147,D,361,Furniture,Common Area,High,Winter,2,10,6,5,4.8,Urgent
+C0148,B,180,Wi-Fi,Bathroom,Medium,Monsoon,3,5,4,2,3.7,High
+C0149,D,179,Water Leakage,Corridor,Medium,Summer,0,10,3,5,2.2,High
+C0150,B,328,Electricity,Room,High,Winter,2,7,1,4,3.5,High
+C0151,D,200,Furniture,Corridor,High,Winter,3,8,2,3,5.4,Urgent
+C0152,B,519,Wi-Fi,Mess,Urgent,Winter,7,4,4,5,3.4,Urgent
+C0153,A,465,Electricity,Study Room,High,Summer,0,10,4,3,4.0,Urgent
+C0154,D,147,Plumbing,Study Room,Low,Summer,2,4,4,5,2.3,Medium
+C0155,D,142,Electricity,Common Area,High,Monsoon,6,0,4,5,3.9,Urgent
+C0156,C,342,Wi-Fi,Room,Medium,Summer,1,10,3,2,3.5,High
+C0157,B,381,Fan/AC,Room,Medium,Winter,0,1,1,3,2.9,Medium
+C0158,D,428,Fan/AC,Study Room,Medium,Winter,4,3,3,1,4.1,High
+C0159,B,468,Plumbing,Study Room,Low,Monsoon,7,9,5,1,4.5,Urgent
+C0160,A,369,Electricity,Corridor,Low,Monsoon,5,3,5,4,2.6,High
+C0161,C,230,Wi-Fi,Bathroom,Medium,Winter,0,6,4,1,3.8,High
+C0162,C,169,Fan/AC,Bathroom,High,Monsoon,5,3,6,1,5.9,Urgent
+C0163,B,133,Water Leakage,Corridor,Medium,Winter,2,10,4,4,3.2,Urgent
+C0164,D,518,Fan/AC,Common Area,Low,Summer,0,3,1,3,2.8,Low
+C0165,C,240,Furniture,Common Area,Low,Monsoon,3,4,3,1,4.1,Medium
+C0166,D,289,Water Leakage,Corridor,High,Monsoon,7,6,3,2,4.6,Urgent
+C0167,B,380,Plumbing,Study Room,High,Monsoon,6,1,4,5,4.9,Urgent
+C0168,B,454,Wi-Fi,Corridor,Low,Summer,4,4,4,5,2.9,High
+C0169,A,139,Cleaning,Corridor,Low,Monsoon,5,9,4,3,2.8,High
+C0170,D,118,Fan/AC,Mess,Medium,Monsoon,2,0,2,5,3.3,Medium
+C0171,B,448,Electricity,Bathroom,High,Summer,5,5,4,5,3.8,Urgent
+C0172,C,433,Cleaning,Corridor,Medium,Monsoon,1,9,2,5,2.1,High
+C0173,A,235,Wi-Fi,Room,Low,Summer,2,7,5,4,3.2,High
+C0174,A,332,Plumbing,Corridor,Medium,Winter,4,7,2,1,4.0,High
+C0175,C,254,Electricity,Mess,Urgent,Monsoon,5,10,3,1,3.7,Urgent
+C0176,B,506,Plumbing,Room,High,Winter,2,5,5,2,4.5,Urgent
+C0177,A,134,Electricity,Room,Low,Monsoon,5,7,5,2,3.4,High
+C0178,C,429,Wi-Fi,Common Area,High,Winter,6,6,5,1,5.3,Urgent
+C0179,B,322,Water Leakage,Common Area,Medium,Monsoon,5,2,5,5,2.8,Urgent
+C0180,B,278,Furniture,Bathroom,Medium,Summer,4,2,2,3,4.4,High
+C0181,A,358,Furniture,Corridor,Low,Summer,4,2,6,3,4.0,High
+C0182,C,389,Fan/AC,Room,High,Winter,2,2,6,5,4.7,Urgent
+C0183,A,355,Water Leakage,Bathroom,Low,Summer,4,10,2,5,2.2,High
+C0184,A,453,Fan/AC,Study Room,Medium,Monsoon,4,7,2,4,3.8,High
+C0185,C,476,Water Leakage,Room,Medium,Monsoon,7,3,3,5,2.9,Urgent
+C0186,D,163,Plumbing,Corridor,Low,Monsoon,5,8,5,1,3.9,Urgent
+C0187,B,517,Wi-Fi,Common Area,Low,Summer,0,4,4,5,2.1,Medium
+C0188,C,355,Wi-Fi,Study Room,Medium,Winter,2,7,5,4,3.6,Urgent
+C0189,C,354,Water Leakage,Bathroom,Medium,Monsoon,3,3,5,3,2.8,High
+C0190,C,492,Furniture,Mess,Medium,Winter,0,1,4,2,4.1,High
+C0191,D,492,Cleaning,Corridor,Medium,Summer,3,5,5,3,2.8,Urgent
+C0192,C,386,Furniture,Corridor,Medium,Winter,1,2,1,4,3.3,Medium
+C0193,C,512,Wi-Fi,Room,Medium,Summer,6,8,1,1,4.0,High
+C0194,C,404,Cleaning,Study Room,Low,Monsoon,2,5,5,3,2.0,High
+C0195,A,314,Wi-Fi,Study Room,Medium,Winter,4,7,1,3,3.5,High
+C0196,B,470,Furniture,Corridor,High,Winter,0,9,4,3,5.2,Urgent
+C0197,A,198,Water Leakage,Study Room,Low,Monsoon,6,2,6,2,2.8,High
+C0198,D,477,Water Leakage,Common Area,Medium,Monsoon,6,3,4,5,3.3,Urgent
+C0199,C,189,Fan/AC,Bathroom,Low,Winter,3,8,3,4,3.3,High
+C0200,C,386,Cleaning,Study Room,Medium,Monsoon,4,9,4,2,3.8,Urgent
+C0201,C,248,Wi-Fi,Room,High,Monsoon,3,7,3,4,4.2,Urgent
+C0202,A,278,Water Leakage,Study Room,Medium,Winter,6,5,2,3,3.0,High
+C0203,C,171,Cleaning,Mess,High,Monsoon,3,3,5,3,4.1,Urgent
+C0204,B,127,Water Leakage,Study Room,Medium,Winter,3,0,6,5,2.6,High
+C0205,B,309,Water Leakage,Common Area,High,Monsoon,1,10,2,1,4.3,Urgent
+C0206,A,434,Fan/AC,Common Area,Medium,Monsoon,4,5,3,1,4.8,High
+C0207,A,304,Furniture,Room,High,Winter,0,2,4,2,5.0,High
+C0208,A,272,Plumbing,Common Area,High,Summer,4,0,1,3,4.2,High
+C0209,A,270,Wi-Fi,Common Area,Medium,Winter,7,2,5,4,4.0,Urgent
+C0210,B,190,Electricity,Mess,Medium,Monsoon,2,0,6,3,3.4,High
+C0211,B,345,Furniture,Mess,High,Monsoon,5,1,4,1,5.4,Urgent
+C0212,A,234,Wi-Fi,Room,Low,Summer,3,7,3,3,2.9,High
+C0213,C,454,Fan/AC,Corridor,Low,Winter,1,7,3,2,3.2,Medium
+C0214,C,313,Water Leakage,Mess,Medium,Monsoon,3,3,2,4,2.4,High
+C0215,A,370,Fan/AC,Study Room,High,Monsoon,3,3,6,5,5.0,Urgent
+C0216,B,185,Cleaning,Study Room,Medium,Winter,1,0,5,5,1.9,High
+C0217,D,515,Wi-Fi,Study Room,Low,Monsoon,3,9,4,1,3.9,High
+C0218,C,471,Water Leakage,Common Area,Medium,Summer,7,9,1,5,3.2,Urgent
+C0219,A,378,Water Leakage,Common Area,High,Monsoon,3,9,1,1,4.1,Urgent
+C0220,D,330,Water Leakage,Bathroom,Low,Monsoon,6,2,2,4,2.2,Medium
+C0221,D,371,Plumbing,Common Area,Low,Monsoon,2,10,3,1,3.3,High
+C0222,D,218,Electricity,Mess,High,Summer,0,4,4,5,3.2,High
+C0223,A,224,Electricity,Common Area,Low,Monsoon,3,1,1,4,2.0,Medium
+C0224,A,306,Electricity,Bathroom,Medium,Summer,7,9,6,1,4.6,Urgent
+C0225,C,396,Cleaning,Room,Low,Winter,0,2,5,3,1.6,Medium
+C0226,C,132,Furniture,Mess,Low,Monsoon,2,10,5,2,4.0,High
+C0227,D,503,Furniture,Study Room,High,Winter,6,8,4,1,6.4,Urgent
+C0228,D,224,Furniture,Corridor,Medium,Winter,2,4,4,2,4.5,High
+C0229,D,386,Plumbing,Room,High,Monsoon,2,7,1,5,3.8,High
+C0230,C,148,Furniture,Room,Low,Monsoon,3,5,6,1,4.5,High
+C0231,A,197,Furniture,Mess,Low,Summer,6,10,5,5,3.8,Urgent
+C0232,A,209,Plumbing,Study Room,Medium,Winter,3,7,2,3,3.6,High
+C0233,D,223,Electricity,Mess,High,Summer,7,3,6,5,4.7,Urgent
+C0234,D,339,Furniture,Corridor,Medium,Monsoon,5,4,3,3,4.5,High
+C0235,B,480,Water Leakage,Mess,High,Monsoon,5,3,3,3,4.0,Urgent
+C0236,D,392,Electricity,Bathroom,Medium,Monsoon,6,4,2,2,3.6,High
+C0237,C,187,Plumbing,Room,Medium,Monsoon,5,4,4,4,3.9,Urgent
+C0238,A,492,Electricity,Mess,Medium,Winter,0,8,1,1,3.4,Medium
+C0239,D,292,Water Leakage,Common Area,High,Summer,3,1,6,2,3.8,Urgent
+C0240,D,107,Water Leakage,Study Room,Medium,Winter,7,10,4,1,4.0,Urgent
+C0241,B,155,Water Leakage,Study Room,Low,Winter,4,0,5,4,2.5,High
+C0242,D,336,Water Leakage,Study Room,Low,Summer,4,5,3,4,2.0,High
+C0243,D,294,Furniture,Room,Low,Winter,1,10,6,1,3.9,High
+C0244,C,390,Furniture,Common Area,Medium,Summer,2,1,4,4,3.9,High
+C0245,A,139,Plumbing,Bathroom,High,Winter,3,3,6,5,4.4,Urgent
+C0246,B,486,Fan/AC,Corridor,Medium,Winter,0,2,3,1,4.1,Medium
+C0247,D,447,Plumbing,Mess,High,Monsoon,4,2,5,2,5.0,Urgent
+C0248,D,219,Furniture,Corridor,High,Monsoon,2,1,5,3,4.6,Urgent
+C0249,D,352,Plumbing,Bathroom,Medium,Monsoon,6,5,1,3,4.1,High
+C0250,A,496,Electricity,Corridor,High,Winter,6,2,6,5,4.4,Urgent
+C0251,B,479,Furniture,Corridor,High,Summer,1,4,2,4,4.5,High
+C0252,A,168,Cleaning,Corridor,Low,Monsoon,0,4,4,3,1.9,Medium
+C0253,A,406,Water Leakage,Room,Medium,Monsoon,6,1,1,1,3.3,High
+C0254,B,393,Furniture,Corridor,Low,Monsoon,6,6,1,5,3.7,High
+C0255,A,186,Furniture,Room,Medium,Winter,2,4,3,3,4.0,High
+C0256,D,405,Cleaning,Corridor,Low,Monsoon,1,5,3,2,2.2,Medium
+C0257,D,512,Furniture,Room,Low,Monsoon,4,0,4,3,3.8,Medium
+C0258,B,346,Plumbing,Corridor,Medium,Monsoon,2,4,3,5,3.5,High
+C0259,C,293,Wi-Fi,Room,Urgent,Monsoon,4,10,4,5,3.5,Urgent
+C0260,A,473,Wi-Fi,Common Area,Low,Monsoon,3,9,5,2,3.7,High
+C0261,C,224,Cleaning,Mess,Medium,Summer,4,1,4,4,2.5,High
+C0262,D,374,Wi-Fi,Mess,High,Summer,6,1,4,5,4.4,Urgent
+C0263,B,437,Furniture,Mess,Medium,Monsoon,5,8,5,1,5.0,Urgent
+C0264,C,508,Fan/AC,Corridor,Medium,Summer,0,9,6,4,4.3,Urgent
+C0265,B,329,Cleaning,Bathroom,Low,Summer,3,8,6,5,2.3,High
+C0266,D,144,Wi-Fi,Common Area,High,Monsoon,2,5,1,4,3.6,High
+C0267,D,150,Water Leakage,Mess,Medium,Summer,5,7,2,5,2.9,High
+C0268,C,432,Cleaning,Mess,Medium,Winter,1,4,1,1,2.3,Medium
+C0269,D,337,Water Leakage,Mess,High,Summer,3,8,2,5,3.3,Urgent
+C0270,D,404,Electricity,Common Area,Low,Winter,6,6,1,5,2.7,High
+C0271,B,288,Cleaning,Common Area,High,Summer,3,4,6,1,4.3,Urgent
+C0272,D,401,Wi-Fi,Room,Low,Monsoon,7,8,6,3,4.1,Urgent
+C0273,A,445,Water Leakage,Corridor,High,Monsoon,2,10,6,3,4.6,Urgent
+C0274,D,406,Electricity,Corridor,Low,Summer,1,2,3,2,2.3,Medium
+C0275,D,248,Electricity,Study Room,Medium,Monsoon,7,10,5,2,4.5,Urgent
+C0276,D,388,Electricity,Room,High,Monsoon,0,5,1,4,2.9,High
+C0277,A,390,Furniture,Mess,Medium,Monsoon,7,6,6,4,5.0,Urgent
+C0278,D,382,Water Leakage,Room,Low,Monsoon,3,8,3,2,2.8,High
+C0279,D,153,Furniture,Bathroom,Low,Winter,5,8,1,4,3.6,High
+C0280,A,325,Fan/AC,Mess,Low,Summer,0,7,3,3,3.2,Medium
+C0281,B,502,Plumbing,Bathroom,Low,Summer,5,9,6,4,3.5,Urgent
+C0282,C,249,Electricity,Room,Medium,Summer,4,9,5,2,3.9,Urgent
+C0283,B,460,Furniture,Corridor,Urgent,Winter,1,2,4,1,4.1,Urgent
+C0284,C,422,Plumbing,Room,Low,Summer,5,3,6,4,3.4,High
+C0285,C,333,Cleaning,Common Area,Low,Monsoon,1,6,5,3,2.2,High
+C0286,D,212,Cleaning,Corridor,Low,Winter,1,7,6,3,2.5,High
+C0287,D,504,Cleaning,Room,Low,Monsoon,4,5,5,5,1.9,High
+C0288,A,320,Wi-Fi,Mess,Low,Summer,7,0,1,2,3.2,Medium
+C0289,C,143,Electricity,Mess,High,Summer,4,2,3,1,4.5,Urgent
+C0290,A,461,Wi-Fi,Mess,Low,Winter,6,10,3,2,3.8,High
+C0291,A,105,Water Leakage,Bathroom,Medium,Summer,2,9,2,5,2.7,High
+C0292,A,475,Fan/AC,Corridor,Urgent,Summer,6,2,4,1,4.1,Urgent
+C0293,B,136,Plumbing,Bathroom,Medium,Summer,4,2,4,2,4.1,High
+C0294,B,311,Furniture,Study Room,Medium,Summer,2,7,3,2,4.4,High
+C0295,D,280,Furniture,Mess,High,Monsoon,1,1,2,1,4.8,High
+C0296,C,499,Cleaning,Corridor,Low,Summer,1,3,5,5,1.7,Medium
+C0297,D,252,Fan/AC,Bathroom,High,Winter,3,8,5,5,4.6,Urgent
+C0298,A,285,Fan/AC,Bathroom,Medium,Summer,1,3,4,5,3.1,High
+C0299,A,109,Wi-Fi,Room,High,Monsoon,6,5,5,2,5.5,Urgent
+C0300,D,317,Furniture,Bathroom,Low,Summer,0,0,4,5,2.4,Medium
+C0301,B,514,Fan/AC,Common Area,Medium,Summer,2,4,1,3,3.3,Medium
+C0302,B,130,Electricity,Study Room,Medium,Monsoon,1,4,6,4,3.2,High
+C0303,B,460,Electricity,Bathroom,Low,Monsoon,0,4,6,2,2.3,High
+C0304,C,476,Water Leakage,Room,Urgent,Monsoon,4,2,3,2,2.9,Urgent
+C0305,A,355,Water Leakage,Bathroom,High,Monsoon,4,8,1,3,4.0,Urgent
+C0306,A,217,Cleaning,Study Room,Low,Monsoon,2,5,2,3,2.0,Medium
+C0307,B,192,Fan/AC,Study Room,Low,Summer,0,3,1,4,2.3,Low
+C0308,C,239,Plumbing,Bathroom,High,Winter,6,3,3,2,5.0,Urgent
+C0309,D,136,Plumbing,Bathroom,Medium,Winter,0,2,2,5,3.0,Medium
+C0310,C,479,Cleaning,Corridor,Medium,Monsoon,7,0,3,2,3.2,High
+C0311,B,178,Furniture,Room,Medium,Monsoon,7,3,6,5,4.9,Urgent
+C0312,A,489,Water Leakage,Common Area,Low,Summer,5,10,6,1,3.9,Urgent
+C0313,A,173,Fan/AC,Common Area,High,Winter,1,3,5,2,4.8,Urgent
+C0314,A,398,Fan/AC,Corridor,Low,Summer,3,8,4,3,3.6,High
+C0315,B,222,Water Leakage,Study Room,Medium,Summer,6,1,5,5,2.8,Urgent
+C0316,A,204,Wi-Fi,Corridor,High,Monsoon,6,5,3,4,4.5,Urgent
+C0317,C,495,Electricity,Study Room,Low,Summer,2,7,4,3,2.5,High
+C0318,A,211,Electricity,Common Area,Medium,Monsoon,1,1,2,3,2.8,Medium
+C0319,C,234,Plumbing,Corridor,Low,Summer,3,5,4,5,2.5,High
+C0320,D,153,Plumbing,Room,Urgent,Summer,7,8,6,5,3.8,Urgent
+C0321,A,399,Plumbing,Room,Low,Summer,3,2,2,4,2.5,Medium
+C0322,A,515,Furniture,Corridor,Low,Summer,1,3,6,4,3.5,High
+C0323,D,355,Wi-Fi,Bathroom,High,Summer,0,2,5,4,4.1,Urgent
+C0324,B,118,Water Leakage,Common Area,Medium,Winter,5,3,2,3,2.9,High
+C0325,A,244,Furniture,Study Room,Low,Winter,4,7,4,5,3.5,High
+C0326,C,346,Cleaning,Room,Low,Monsoon,3,10,5,1,3.3,High
+C0327,B,116,Furniture,Common Area,High,Monsoon,5,6,3,2,5.2,Urgent
+C0328,B,152,Plumbing,Corridor,High,Summer,7,8,3,5,5.3,Urgent
+C0329,B,191,Electricity,Mess,Low,Summer,0,3,5,4,1.9,Medium
+C0330,B,389,Electricity,Study Room,High,Monsoon,5,9,1,3,4.6,Urgent
+C0331,B,111,Electricity,Common Area,Medium,Winter,7,0,1,1,3.5,High
+C0332,C,131,Furniture,Common Area,Medium,Summer,3,2,3,2,4.5,High
+C0333,C,461,Water Leakage,Room,High,Winter,2,1,5,3,4.0,Urgent
+C0334,D,506,Fan/AC,Common Area,Low,Winter,4,5,2,2,3.7,Medium
+C0335,D,258,Fan/AC,Common Area,Medium,Winter,5,3,6,5,4.4,Urgent
+C0336,C,515,Fan/AC,Mess,Low,Monsoon,0,9,4,5,2.5,High
+C0337,C,186,Furniture,Room,Medium,Winter,7,2,3,1,4.8,Urgent
+C0338,A,280,Fan/AC,Bathroom,Medium,Winter,5,7,1,3,4.0,High
+C0339,D,353,Wi-Fi,Bathroom,Low,Winter,6,7,6,4,4.0,Urgent
+C0340,A,510,Cleaning,Corridor,Medium,Winter,7,9,6,2,3.9,Urgent
+C0341,D,183,Plumbing,Bathroom,Low,Monsoon,4,1,1,3,2.5,Medium
+C0342,A,321,Fan/AC,Bathroom,High,Winter,1,5,5,5,4.7,Urgent
+C0343,B,310,Fan/AC,Room,High,Winter,2,0,1,3,4.0,High
+C0344,A,302,Fan/AC,Study Room,High,Winter,4,10,3,3,5.0,Urgent
+C0345,D,203,Furniture,Study Room,Low,Monsoon,5,0,4,1,3.9,High
+C0346,D,342,Water Leakage,Bathroom,Low,Summer,4,1,4,1,2.6,High
+C0347,D,123,Cleaning,Mess,Low,Monsoon,6,2,3,4,2.1,High
+C0348,A,144,Wi-Fi,Common Area,Low,Monsoon,4,9,1,2,3.4,Medium
+C0349,D,375,Fan/AC,Corridor,Medium,Winter,3,8,1,4,4.0,High
+C0350,A,358,Fan/AC,Common Area,High,Winter,7,4,1,4,5.2,Urgent
+C0351,B,209,Furniture,Study Room,Medium,Winter,2,1,4,2,4.5,High
+C0352,B,405,Plumbing,Room,Low,Summer,1,10,4,2,3.6,High
+C0353,C,242,Wi-Fi,Corridor,High,Winter,1,1,4,5,3.6,High
+C0354,A,155,Furniture,Common Area,High,Summer,6,1,4,2,5.3,Urgent
+C0355,D,120,Furniture,Bathroom,High,Monsoon,5,6,3,4,5.3,Urgent
+C0356,A,482,Electricity,Corridor,Low,Monsoon,6,0,4,3,3.0,High
+C0357,A,217,Cleaning,Corridor,Low,Monsoon,4,4,3,4,2.3,High
+C0358,A,197,Electricity,Corridor,Medium,Winter,5,4,6,4,3.7,Urgent
+C0359,D,170,Cleaning,Room,High,Monsoon,5,0,5,2,3.8,Urgent
+C0360,A,285,Plumbing,Study Room,Low,Winter,3,3,1,2,2.5,Medium
+C0361,B,291,Fan/AC,Room,Medium,Monsoon,7,8,4,1,5.4,Urgent
+C0362,C,484,Cleaning,Study Room,Low,Monsoon,7,9,5,3,3.1,Urgent
+C0363,B,214,Plumbing,Mess,Low,Summer,6,0,2,5,2.9,Medium
+C0364,B,432,Fan/AC,Room,Low,Winter,6,8,1,1,4.0,High
+C0365,C,336,Electricity,Study Room,Low,Summer,4,10,3,4,3.0,High
+C0366,C,388,Wi-Fi,Room,Medium,Monsoon,6,9,1,1,4.4,High
+C0367,C,242,Fan/AC,Study Room,Low,Winter,1,7,1,3,3.2,Medium
+C0368,A,513,Wi-Fi,Mess,Urgent,Winter,4,3,2,5,2.9,Urgent
+C0369,C,315,Plumbing,Study Room,Medium,Monsoon,2,0,6,4,3.8,High
+C0370,D,444,Cleaning,Common Area,Low,Winter,3,5,6,2,2.8,High
+C0371,C,472,Wi-Fi,Study Room,High,Monsoon,2,4,1,4,3.5,High
+C0372,C,316,Plumbing,Study Room,High,Summer,5,10,1,2,4.9,Urgent
+C0373,A,342,Plumbing,Corridor,Low,Monsoon,4,7,1,4,2.5,Medium
+C0374,B,171,Electricity,Study Room,High,Summer,6,8,3,4,4.1,Urgent
+C0375,D,271,Electricity,Corridor,Urgent,Monsoon,7,2,3,2,3.5,Urgent
+C0376,B,396,Fan/AC,Room,Medium,Monsoon,0,7,3,2,4.0,High
+C0377,D,320,Plumbing,Room,High,Monsoon,1,2,5,4,4.2,Urgent
+C0378,B,110,Cleaning,Common Area,Low,Summer,3,5,1,3,2.1,Medium
+C0379,C,186,Fan/AC,Bathroom,High,Winter,3,5,3,2,4.7,Urgent
+C0380,B,276,Water Leakage,Bathroom,High,Monsoon,7,8,5,5,4.3,Urgent
+C0381,B,209,Cleaning,Corridor,Low,Summer,6,0,2,2,2.5,Medium
+C0382,C,495,Fan/AC,Bathroom,Medium,Winter,1,5,6,1,4.4,High
+C0383,A,314,Furniture,Study Room,Medium,Summer,0,10,1,1,3.8,High
+C0384,A,440,Cleaning,Common Area,Medium,Summer,7,2,2,1,3.4,High
+C0385,A,245,Furniture,Corridor,Medium,Winter,2,6,1,5,3.7,High
+C0386,D,252,Water Leakage,Bathroom,Low,Monsoon,3,4,5,2,2.6,High
+C0387,A,157,Electricity,Bathroom,Medium,Winter,3,7,3,2,3.2,High
+C0388,B,334,Plumbing,Study Room,Medium,Winter,1,8,1,1,4.0,High
+C0389,C,319,Wi-Fi,Corridor,Low,Monsoon,2,0,3,3,2.7,Medium
+C0390,D,419,Fan/AC,Bathroom,High,Summer,0,0,2,2,4.1,High
+C0391,D,240,Wi-Fi,Mess,Medium,Summer,5,2,1,4,3.3,High
+C0392,A,182,Plumbing,Common Area,High,Winter,6,10,2,1,5.2,Urgent
+C0393,A,451,Water Leakage,Common Area,Medium,Winter,7,2,5,4,3.7,Urgent
+C0394,C,436,Plumbing,Mess,Medium,Summer,7,1,4,4,3.7,Urgent
+C0395,A,322,Wi-Fi,Bathroom,High,Winter,3,10,3,5,4.3,Urgent
+C0396,B,359,Fan/AC,Mess,Medium,Summer,6,2,5,5,3.9,Urgent
+C0397,C,126,Plumbing,Common Area,High,Monsoon,1,7,3,2,4.4,Urgent
+C0398,D,146,Furniture,Room,Medium,Winter,6,3,1,4,4.1,High
+C0399,A,386,Plumbing,Common Area,Medium,Monsoon,7,10,1,1,4.6,Urgent
+C0400,D,275,Furniture,Bathroom,High,Summer,4,8,5,2,5.8,Urgent
+C0401,C,467,Wi-Fi,Bathroom,High,Summer,5,8,5,5,4.7,Urgent
+C0402,C,381,Cleaning,Bathroom,High,Summer,3,0,3,3,3.6,High
+C0403,B,197,Furniture,Corridor,Low,Winter,2,7,2,4,2.9,Medium
+C0404,A,496,Water Leakage,Common Area,Medium,Summer,3,5,1,4,2.3,High
+C0405,D,400,Cleaning,Common Area,Medium,Winter,2,7,1,5,2.3,High
+C0406,C,359,Cleaning,Study Room,Medium,Summer,2,2,1,4,2.2,Medium
+C0407,D,513,Cleaning,Common Area,High,Winter,3,4,4,3,4.0,Urgent
+C0408,B,208,Electricity,Room,Medium,Monsoon,4,8,3,5,3.3,Urgent
+C0409,C,464,Furniture,Mess,Medium,Monsoon,2,10,2,5,3.9,High
+C0410,D,514,Water Leakage,Corridor,Medium,Winter,6,10,6,5,3.6,Urgent
+C0411,B,247,Water Leakage,Study Room,Low,Summer,2,0,6,1,2.4,High
+C0412,D,153,Fan/AC,Corridor,High,Summer,4,3,5,1,5.4,Urgent
+C0413,C,455,Furniture,Mess,Medium,Winter,3,10,5,4,4.3,Urgent
+C0414,B,418,Fan/AC,Bathroom,Medium,Monsoon,5,8,1,1,4.8,High
+C0415,B,251,Plumbing,Common Area,High,Summer,5,9,5,5,4.7,Urgent
+C0416,C,385,Cleaning,Room,Low,Winter,2,8,1,4,1.4,Medium
+C0417,B,121,Wi-Fi,Room,Medium,Summer,4,0,3,4,3.5,High
+C0418,C,370,Electricity,Corridor,Low,Winter,4,7,5,5,2.6,High
+C0419,C,214,Electricity,Room,Low,Winter,2,6,5,5,2.2,High
+C0420,A,159,Electricity,Mess,Medium,Monsoon,4,3,5,5,3.1,Urgent
+C0421,A,298,Fan/AC,Corridor,Low,Monsoon,3,0,6,3,3.3,High
+C0422,C,434,Wi-Fi,Study Room,Low,Winter,5,8,5,4,3.4,Urgent
+C0423,A,208,Electricity,Corridor,Low,Winter,1,2,5,5,1.6,Medium
+C0424,D,432,Fan/AC,Mess,High,Summer,6,1,2,5,4.8,Urgent
+C0425,A,128,Plumbing,Bathroom,Medium,Winter,0,7,6,3,3.4,High
+C0426,D,322,Electricity,Corridor,Low,Winter,3,4,4,4,2.4,High
+C0427,A,459,Wi-Fi,Bathroom,Medium,Monsoon,0,10,6,5,3.1,Urgent
+C0428,C,492,Plumbing,Bathroom,High,Monsoon,1,4,6,3,4.6,Urgent
+C0429,D,508,Cleaning,Common Area,High,Monsoon,0,7,2,5,2.6,High
+C0430,A,384,Plumbing,Study Room,Urgent,Monsoon,2,4,6,3,3.7,Urgent
+C0431,A,257,Plumbing,Study Room,Low,Summer,0,9,5,4,2.9,High
+C0432,B,214,Electricity,Mess,High,Winter,5,3,4,5,3.7,Urgent
+C0433,A,229,Furniture,Corridor,Low,Summer,0,8,4,5,2.7,Medium
+C0434,A,200,Water Leakage,Room,Medium,Winter,5,5,2,2,3.1,High
+C0435,C,320,Wi-Fi,Common Area,Medium,Monsoon,4,9,2,5,3.5,High
+C0436,B,448,Electricity,Bathroom,Low,Monsoon,3,10,4,3,3.1,High
+C0437,A,244,Fan/AC,Corridor,Medium,Monsoon,5,4,4,5,3.8,Urgent
+C0438,D,494,Plumbing,Room,Low,Winter,1,1,1,5,2.0,Low
+C0439,C,169,Furniture,Room,Medium,Summer,7,10,2,3,4.9,Urgent
+C0440,B,488,Cleaning,Study Room,Low,Winter,5,8,1,2,2.8,High
+C0441,D,219,Furniture,Room,Low,Monsoon,2,7,3,1,3.6,Medium
+C0442,D,124,Water Leakage,Corridor,Low,Monsoon,3,8,3,4,2.3,High
+C0443,D,435,Water Leakage,Mess,Low,Monsoon,4,4,5,5,2.3,High
+C0444,B,365,Cleaning,Corridor,Medium,Winter,1,8,3,4,2.8,High
+C0445,D,185,Cleaning,Corridor,Medium,Monsoon,7,9,1,5,3.3,Urgent
+C0446,A,439,Electricity,Bathroom,Medium,Winter,3,2,2,2,3.0,High
+C0447,B,432,Electricity,Common Area,High,Monsoon,7,10,4,4,4.6,Urgent
+C0448,A,394,Plumbing,Common Area,Low,Summer,2,9,5,2,3.2,High
+C0449,A,469,Electricity,Bathroom,Low,Summer,2,8,4,5,2.6,High
+C0450,B,213,Fan/AC,Mess,High,Monsoon,3,7,5,4,5.2,Urgent
+C0451,C,333,Plumbing,Common Area,Low,Winter,2,9,6,5,2.9,High
+C0452,D,177,Furniture,Study Room,Low,Summer,6,2,1,1,3.7,Medium
+C0453,B,409,Furniture,Bathroom,Medium,Summer,0,8,5,1,4.2,High
+C0454,D,505,Furniture,Bathroom,Medium,Winter,6,5,1,5,4.0,High
+C0455,B,143,Plumbing,Common Area,Medium,Monsoon,1,6,2,3,3.3,High
+C0456,A,367,Wi-Fi,Study Room,Medium,Winter,3,0,6,1,4.1,High
+C0457,C,234,Water Leakage,Common Area,Low,Winter,5,6,3,1,2.8,High
+C0458,D,192,Plumbing,Study Room,Medium,Monsoon,4,10,4,2,4.4,Urgent
+C0459,A,483,Wi-Fi,Study Room,Medium,Winter,4,9,3,4,4.0,Urgent
+C0460,A,183,Electricity,Common Area,High,Winter,1,3,5,4,3.9,Urgent
+C0461,C,214,Cleaning,Mess,High,Summer,2,7,5,4,3.3,Urgent
+C0462,A,497,Wi-Fi,Bathroom,Low,Winter,6,6,5,5,3.2,Urgent
+C0463,A,502,Plumbing,Room,Medium,Winter,0,3,6,5,3.0,High
+C0464,A,181,Furniture,Study Room,Medium,Winter,2,10,1,3,3.9,High
+C0465,A,147,Water Leakage,Corridor,Medium,Monsoon,6,6,5,2,4.0,Urgent
+C0466,B,333,Furniture,Corridor,High,Winter,5,5,3,2,5.6,Urgent
+C0467,C,275,Cleaning,Study Room,Low,Summer,6,8,1,5,1.8,High
+C0468,B,488,Water Leakage,Study Room,High,Monsoon,4,7,4,5,3.8,Urgent
+C0469,B,447,Wi-Fi,Common Area,Medium,Winter,0,7,1,3,2.7,Medium
+C0470,C,228,Fan/AC,Room,Medium,Monsoon,5,8,5,1,5.2,Urgent
+C0471,C,212,Wi-Fi,Bathroom,Medium,Monsoon,5,1,5,2,4.1,Urgent
+C0472,B,236,Furniture,Corridor,High,Summer,3,7,6,2,5.5,Urgent
+C0473,D,415,Electricity,Room,High,Summer,5,2,1,1,4.6,High
+C0474,C,352,Water Leakage,Study Room,High,Summer,5,9,3,4,4.4,Urgent
+C0475,A,358,Electricity,Study Room,Medium,Monsoon,2,0,5,4,2.9,High
+C0476,A,107,Wi-Fi,Common Area,High,Winter,7,1,6,5,4.8,Urgent
+C0477,C,222,Fan/AC,Room,Medium,Monsoon,5,5,5,3,4.3,Urgent
+C0478,C,287,Wi-Fi,Common Area,Medium,Winter,2,7,4,2,3.8,High
+C0479,C,512,Plumbing,Common Area,Medium,Monsoon,2,9,6,2,4.5,Urgent
+C0480,A,191,Electricity,Study Room,High,Monsoon,3,2,6,2,4.4,Urgent
+C0481,A,304,Cleaning,Common Area,Urgent,Summer,5,7,3,3,2.8,Urgent
+C0482,C,234,Water Leakage,Mess,Low,Summer,4,7,6,1,3.3,High
+C0483,B,396,Wi-Fi,Corridor,Medium,Winter,4,5,1,4,3.1,High
+C0484,D,141,Furniture,Mess,Medium,Winter,4,5,3,5,4.0,High
+C0485,D,137,Cleaning,Study Room,Medium,Monsoon,2,2,6,3,2.8,High
+C0486,D,239,Water Leakage,Room,Low,Monsoon,5,10,3,3,2.9,High
+C0487,B,473,Cleaning,Corridor,Medium,Winter,7,6,2,2,3.8,Urgent
+C0488,A,343,Electricity,Mess,High,Monsoon,1,3,2,4,3.0,High
+C0489,D,259,Furniture,Bathroom,High,Summer,1,1,3,5,3.9,High
+C0490,C,267,Electricity,Room,Low,Winter,2,2,5,2,2.3,High
+C0491,B,403,Plumbing,Common Area,Urgent,Monsoon,4,8,4,2,4.1,Urgent
+C0492,C,347,Furniture,Common Area,High,Winter,6,8,6,5,5.5,Urgent
+C0493,A,368,Furniture,Room,Medium,Summer,5,6,3,2,4.6,Urgent
+C0494,D,509,Plumbing,Room,Low,Monsoon,0,7,4,3,2.4,Medium
+C0495,B,184,Wi-Fi,Study Room,High,Summer,5,3,4,5,4.3,Urgent
+C0496,B,365,Fan/AC,Mess,Medium,Winter,6,3,3,1,4.7,High
+C0497,D,197,Plumbing,Study Room,Medium,Winter,4,10,6,5,4.3,Urgent
+C0498,D,197,Plumbing,Bathroom,Low,Summer,1,10,4,5,2.7,High
+C0499,D,473,Wi-Fi,Bathroom,Low,Summer,0,2,1,3,1.9,Low
+C0500,D,291,Water Leakage,Room,Low,Summer,7,3,3,4,2.5,High
+C0501,D,193,Cleaning,Mess,Medium,Summer,2,0,3,4,1.9,High
+C0502,A,202,Electricity,Corridor,High,Monsoon,1,3,4,4,3.4,Urgent
+C0503,B,423,Cleaning,Mess,Medium,Summer,3,7,4,3,3.3,Urgent
+C0504,A,442,Fan/AC,Bathroom,High,Winter,1,4,4,3,4.4,Urgent
+C0505,D,505,Electricity,Bathroom,Medium,Summer,5,0,2,3,3.2,High
+C0506,B,181,Electricity,Bathroom,Medium,Summer,7,9,2,3,4.1,Urgent
+C0507,A,165,Cleaning,Bathroom,Medium,Winter,0,0,3,2,2.4,Medium
+C0508,D,284,Cleaning,Room,Urgent,Monsoon,5,7,6,2,2.9,Urgent
+C0509,D,198,Fan/AC,Room,High,Monsoon,7,7,5,3,5.8,Urgent
+C0510,B,331,Furniture,Room,Medium,Winter,7,4,5,5,4.4,Urgent
+C0511,A,418,Wi-Fi,Corridor,Medium,Winter,0,10,5,4,3.6,Urgent
+C0512,D,493,Plumbing,Corridor,Low,Winter,1,10,5,4,2.8,High
+C0513,A,123,Furniture,Room,Low,Winter,6,10,3,1,4.3,High
+C0514,D,437,Plumbing,Room,High,Summer,3,1,4,2,4.3,Urgent
+C0515,A,107,Cleaning,Study Room,High,Winter,4,0,3,2,3.8,Urgent
+C0516,D,289,Electricity,Mess,High,Monsoon,1,7,6,1,4.4,Urgent
+C0517,A,211,Plumbing,Mess,High,Summer,4,8,1,1,5.2,Urgent
+C0518,B,386,Furniture,Bathroom,High,Summer,6,3,2,5,5.0,Urgent
+C0519,B,506,Fan/AC,Study Room,High,Monsoon,5,10,4,4,5.6,Urgent
+C0520,C,382,Electricity,Study Room,Medium,Monsoon,2,8,5,4,3.6,Urgent
+C0521,B,293,Wi-Fi,Corridor,High,Monsoon,6,5,5,2,5.3,Urgent
+C0522,C,406,Plumbing,Study Room,Low,Winter,7,7,4,1,4.4,Urgent
+C0523,C,112,Water Leakage,Study Room,Urgent,Summer,4,0,3,2,2.4,Urgent
+C0524,B,236,Plumbing,Mess,High,Monsoon,2,1,1,4,3.6,High
+C0525,B,476,Wi-Fi,Study Room,Low,Summer,4,1,5,4,3.0,High
+C0526,A,405,Water Leakage,Mess,High,Monsoon,2,7,6,5,4.0,Urgent
+C0527,D,314,Fan/AC,Corridor,High,Summer,6,1,1,3,4.7,High
+C0528,A,264,Plumbing,Bathroom,High,Summer,0,10,6,4,4.2,Urgent
+C0529,A,214,Furniture,Study Room,Medium,Summer,3,2,1,4,4.0,Medium
+C0530,D,235,Cleaning,Corridor,Low,Monsoon,5,1,4,5,2.2,High
+C0531,D,434,Water Leakage,Common Area,Medium,Winter,2,2,4,5,2.3,High
+C0532,C,451,Furniture,Room,Medium,Winter,3,3,1,3,4.1,Medium
+C0533,A,495,Furniture,Bathroom,Medium,Summer,6,5,3,2,4.7,Urgent
+C0534,B,203,Wi-Fi,Room,Medium,Monsoon,7,9,2,4,3.8,Urgent
+C0535,B,520,Fan/AC,Corridor,High,Summer,1,1,6,1,4.9,Urgent
+C0536,B,479,Wi-Fi,Bathroom,Medium,Monsoon,1,4,4,4,2.9,High
+C0537,B,456,Furniture,Room,Medium,Summer,4,8,4,5,4.4,Urgent
+C0538,C,128,Fan/AC,Mess,Medium,Summer,0,4,2,1,3.6,Medium
+C0539,A,250,Cleaning,Mess,Low,Summer,4,10,6,3,3.1,Urgent
+C0540,D,406,Plumbing,Mess,Low,Monsoon,6,8,6,1,4.6,Urgent
+C0541,C,271,Furniture,Bathroom,Low,Summer,7,8,6,1,4.7,Urgent
+C0542,B,357,Cleaning,Common Area,Low,Winter,5,10,3,3,2.8,High
+C0543,C,302,Wi-Fi,Bathroom,Low,Winter,6,0,5,3,3.2,High
+C0544,C,410,Fan/AC,Room,High,Summer,3,6,2,5,4.1,Urgent
+C0545,C,453,Wi-Fi,Common Area,Low,Winter,2,9,5,2,3.6,High
+C0546,A,195,Fan/AC,Study Room,Medium,Summer,2,10,5,2,4.4,Urgent
+C0547,C,178,Wi-Fi,Room,Low,Winter,5,6,4,3,3.4,High
+C0548,B,406,Plumbing,Room,Low,Summer,0,9,5,3,3.1,High
+C0549,D,465,Electricity,Room,Low,Winter,1,7,2,5,2.1,Medium
+C0550,A,310,Fan/AC,Corridor,High,Summer,7,7,2,2,5.4,Urgent
+C0551,D,416,Plumbing,Bathroom,Urgent,Monsoon,3,10,2,2,3.2,Urgent
+C0552,D,469,Cleaning,Mess,High,Monsoon,3,6,4,1,4.2,Urgent
+C0553,A,226,Wi-Fi,Common Area,High,Winter,0,8,1,4,3.7,High
+C0554,A,198,Furniture,Study Room,Urgent,Monsoon,0,8,4,5,3.4,Urgent
+C0555,A,454,Wi-Fi,Common Area,High,Monsoon,4,7,2,4,4.2,Urgent
+C0556,B,302,Furniture,Room,High,Monsoon,7,1,6,5,5.1,Urgent
+C0557,A,229,Cleaning,Corridor,Low,Monsoon,7,9,6,2,3.7,Urgent
+C0558,C,144,Wi-Fi,Mess,High,Winter,2,1,1,1,4.3,High
+C0559,B,272,Furniture,Mess,High,Monsoon,2,6,5,4,4.7,Urgent
+C0560,C,474,Furniture,Mess,Low,Summer,2,2,6,1,3.9,High
+C0561,C,107,Plumbing,Common Area,Medium,Monsoon,1,2,2,1,3.6,Medium
+C0562,D,333,Cleaning,Common Area,Medium,Monsoon,0,9,4,2,2.7,High
+C0563,B,126,Cleaning,Common Area,Medium,Summer,0,3,5,3,2.6,High
+C0564,C,270,Electricity,Room,Medium,Summer,0,2,1,5,2.3,Medium
+C0565,B,334,Water Leakage,Bathroom,Medium,Summer,2,2,6,3,3.2,High
+C0566,A,489,Fan/AC,Study Room,High,Monsoon,1,4,3,3,4.7,High
+C0567,D,369,Cleaning,Study Room,Low,Summer,2,1,6,3,2.0,High
+C0568,D,471,Electricity,Mess,Medium,Summer,1,9,6,5,3.5,Urgent
+C0569,C,167,Fan/AC,Study Room,Low,Winter,5,4,5,5,3.8,High
+C0570,C,200,Furniture,Study Room,Medium,Monsoon,7,7,2,5,4.3,Urgent
+C0571,C,280,Water Leakage,Bathroom,Medium,Summer,1,3,5,4,2.6,High
+C0572,C,493,Furniture,Mess,Low,Summer,3,4,3,1,3.7,Medium
+C0573,B,270,Water Leakage,Bathroom,Medium,Winter,6,9,5,1,4.5,Urgent
+C0574,D,375,Plumbing,Corridor,Medium,Winter,7,0,6,2,4.6,Urgent
+C0575,C,385,Wi-Fi,Common Area,High,Monsoon,0,8,3,5,3.9,Urgent
+C0576,A,274,Furniture,Bathroom,Medium,Summer,5,5,1,2,4.3,High
+C0577,C,462,Cleaning,Mess,High,Winter,6,2,5,1,4.8,Urgent
+C0578,C,211,Plumbing,Corridor,Low,Winter,6,1,4,2,3.5,High
+C0579,D,357,Furniture,Corridor,Low,Summer,0,3,1,4,2.6,Low
+C0580,B,206,Electricity,Room,High,Monsoon,4,5,2,1,4.6,Urgent
+C0581,A,271,Fan/AC,Bathroom,Medium,Monsoon,1,0,3,1,4.0,Medium
+C0582,B,265,Cleaning,Bathroom,Medium,Summer,4,0,5,3,3.1,High
+C0583,B,241,Electricity,Room,Low,Monsoon,5,7,6,1,3.5,Urgent
+C0584,C,173,Water Leakage,Bathroom,Medium,Winter,1,3,5,3,2.9,High
+C0585,A,167,Fan/AC,Corridor,Low,Winter,1,4,5,3,3.2,High
+C0586,D,416,Water Leakage,Common Area,Low,Winter,6,0,1,4,2.0,Medium
+C0587,D,150,Wi-Fi,Corridor,High,Monsoon,1,7,5,2,4.4,Urgent
+C0588,C,287,Cleaning,Corridor,Medium,Winter,7,7,2,2,3.3,Urgent
+C0589,D,158,Cleaning,Room,High,Winter,5,5,4,4,3.5,Urgent
+C0590,A,308,Wi-Fi,Common Area,High,Monsoon,4,5,5,5,4.2,Urgent
+C0591,D,223,Plumbing,Mess,Medium,Summer,1,4,5,4,3.4,High
+C0592,D,502,Furniture,Room,Low,Winter,7,6,1,3,3.7,High
+C0593,D,159,Cleaning,Study Room,Medium,Monsoon,3,2,6,1,3.6,Urgent
+C0594,A,407,Furniture,Study Room,Medium,Monsoon,1,7,2,3,4.2,High
+C0595,B,398,Water Leakage,Mess,High,Winter,6,5,4,1,4.5,Urgent
+C0596,D,201,Plumbing,Mess,High,Summer,2,7,5,3,4.6,Urgent
+C0597,A,414,Electricity,Mess,Low,Monsoon,4,6,6,3,3.4,High
+C0598,C,157,Furniture,Common Area,High,Summer,0,5,5,1,4.8,Urgent
+C0599,D,380,Plumbing,Corridor,Low,Summer,6,10,3,4,3.5,High
+C0600,B,248,Electricity,Mess,Medium,Summer,3,8,4,3,3.7,Urgent

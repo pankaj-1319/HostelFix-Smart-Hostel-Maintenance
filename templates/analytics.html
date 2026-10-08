@@ -1,0 +1,29 @@
+{% extends "base.html" %}
+{% block content %}
+<div class="pagehead">
+  <p class="eyebrow">DATA MINING ANALYTICS</p>
+  <h1>Maintenance patterns</h1>
+  <p>Use these views to explain the mining results during your practical/viva.</p>
+</div>
+<section class="grid2">
+  <div class="panel"><h2>Complaint Frequency</h2><canvas id="c"></canvas></div>
+  <div class="panel">
+    <h2>Mining techniques</h2>
+    <ul class="clean">
+      <li><b>J48:</b> priority classification</li>
+      <li><b>Naive Bayes:</b> alternate classification</li>
+      <li><b>Linear Regression:</b> resolution-time prediction</li>
+      <li><b>K-Means:</b> complaint grouping</li>
+      <li><b>Apriori:</b> association rules</li>
+    </ul>
+    <div class="note"><b>Mean resolution:</b> {{avg_resolution}} days.<br>{{monthly_note}}</div>
+  </div>
+</section>
+<script>
+new Chart(document.getElementById('c'), {
+ type:'bar',
+ data:{labels:{{labels|tojson}},datasets:[{label:'Complaints',data:{{values|tojson}}}]},
+ options:{responsive:true,plugins:{legend:{display:false}}}
+});
+</script>
+{% endblock %}

@@ -1,0 +1,35 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>HostelFix — Smart Maintenance</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Space+Grotesk:wght@500;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="{{ url_for('static', filename='css/pro.css') }}">
+<script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+</head>
+<body>
+<div class="app-shell">
+<aside class="sidebar">
+<a class="logo" href="/"><span class="logo-mark">H</span><span>HostelFix</span></a>
+<div class="side-label">WORKSPACE</div>
+<a class="side-link {% if request.path=='/' %}active{% endif %}" href="/"><span>⌂</span> Overview</a>
+<a class="side-link {% if request.path.startswith('/complaints') %}active{% endif %}" href="/complaints"><span>▣</span> Complaints</a>
+<a class="side-link {% if request.path=='/predict' %}active{% endif %}" href="/predict"><span>◈</span> AI Prediction</a>
+<a class="side-link {% if request.path=='/analytics' %}active{% endif %}" href="/analytics"><span>◒</span> Analytics</a>
+<div class="side-label">PROJECT</div>
+<div class="project-card"><div class="pulse"></div><div><b>Mining Engine</b><small>5 techniques active</small></div></div>
+<div class="sidebar-bottom">
+{% if current_user %}
+<div class="user-chip"><div class="avatar">{{current_user[0]}}</div><div><b>{{current_user}}</b><small>Administrator</small></div></div>
+<a class="side-link" href="/logout"><span>↪</span> Sign out</a>
+{% else %}<a class="side-link" href="/login"><span>→</span> Sign in</a>{% endif %}
+</div>
+</aside>
+<main class="main">
+<header class="topbar"><div class="mobile-logo">HostelFix</div><div class="top-actions"><span class="status-dot"></span><span class="live-text">System operational</span>{% if current_user %}<div class="top-avatar">{{current_user[0]}}</div>{% endif %}</div></header>
+{% with messages=get_flashed_messages(with_categories=true) %}{% if messages %}<div class="flash-wrap">{% for category,msg in messages %}<div class="flash {{category}}">{{msg}}</div>{% endfor %}</div>{% endif %}{% endwith %}
+<div class="page">{% block content %}{% endblock %}</div>
+</main></div>
+<script src="{{url_for('static',filename='js/pro.js')}}"></script>
+</body></html>

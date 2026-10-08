@@ -1,0 +1,48 @@
+{% extends "base.html" %}
+{% block content %}
+<div class="pagehead">
+  <p class="eyebrow">PREDICTION ENGINE</p>
+  <h1>Analyze a maintenance complaint</h1>
+  <p>J48-like classification predicts priority, Naive Bayes provides a second classification view, and Linear Regression estimates resolution time.</p>
+</div>
+
+<form method="POST" class="formgrid panel">
+  <label>Hostel Block
+    <select name="Hostel_Block"><option>A</option><option>B</option><option>C</option><option>D</option></select>
+  </label>
+  <label>Complaint Type
+    <select name="Complaint_Type">
+      {% for x in ["Water Leakage","Electricity","Wi-Fi","Cleaning","Furniture","Fan/AC","Plumbing"] %}<option>{{x}}</option>{% endfor %}
+    </select>
+  </label>
+  <label>Location
+    <select name="Location">
+      {% for x in ["Bathroom","Room","Corridor","Common Area","Study Room","Mess"] %}<option>{{x}}</option>{% endfor %}
+    </select>
+  </label>
+  <label>Severity
+    <select name="Severity"><option>Low</option><option>Medium</option><option>High</option><option>Urgent</option></select>
+  </label>
+  <label>Season
+    <select name="Season"><option>Summer</option><option>Monsoon</option><option>Winter</option></select>
+  </label>
+  <label>Days Pending <input type="number" name="Days_Pending" min="0" value="2"></label>
+  <label>Previous Complaints <input type="number" name="Previous_Complaints" min="0" value="2"></label>
+  <label>Affected Rooms <input type="number" name="Affected_Rooms" min="1" value="1"></label>
+  <label>Staff Available <input type="number" name="Staff_Available" min="1" value="2"></label>
+  <button class="btn" type="submit">Analyze Complaint</button>
+</form>
+
+{% if result %}
+<section class="result panel">
+  <p class="eyebrow">RESULT</p>
+  <div class="resultgrid">
+    <div><small>J48 Priority</small><strong>{{result.priority}}</strong></div>
+    <div><small>Naive Bayes</small><strong>{{result.nb_prediction}}</strong></div>
+    <div><small>Estimated Resolution</small><strong>{{result.resolution}} days</strong></div>
+    <div><small>Recurrence Risk</small><strong>{{result.risk}}</strong></div>
+  </div>
+  <div class="recommend"><b>Recommendation:</b> {{result.recommendation}}</div>
+</section>
+{% endif %}
+{% endblock %}

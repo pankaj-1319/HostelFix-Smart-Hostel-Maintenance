@@ -1,0 +1,19 @@
+{% extends "base.html" %}{% block content %}
+<div class="page-title"><div><div class="kicker">AI-ASSISTED ANALYSIS</div><h1>Priority prediction</h1><p>Estimate urgency and expected resolution time with the mining models.</p></div></div>
+<div class="predict-layout"><form method="POST" class="form-panel"><div class="form-section"><h3>Complaint profile</h3><div class="form-grid">
+<label>Hostel block<select name="block">{% for x in ['A','B','C','D'] %}<option>{{x}}</option>{% endfor %}</select></label>
+<label>Complaint type<select name="complaint_type">{% for x in ['Water Leakage','Electricity','Wi-Fi','Cleaning','Furniture','Fan/AC','Plumbing'] %}<option>{{x}}</option>{% endfor %}</select></label>
+<label>Location<select name="location">{% for x in ['Bathroom','Room','Corridor','Common Area','Study Room','Mess'] %}<option>{{x}}</option>{% endfor %}</select></label>
+<label>Severity<select name="severity"><option>Low</option><option>Medium</option><option selected>High</option><option>Urgent</option></select></label>
+<label>Season<select name="season"><option>Summer</option><option>Monsoon</option><option>Winter</option></select></label>
+<label>Days pending<input type="number" name="days_pending" value="2" min="0"></label>
+<label>Previous complaints<input type="number" name="previous_complaints" value="2" min="0"></label>
+<label>Affected rooms<input type="number" name="affected_rooms" value="1" min="1"></label>
+<label>Staff available<input type="number" name="staff_available" value="2" min="1"></label>
+</div></div><button class="primary-btn full-btn">Run prediction →</button></form>
+<div class="result-side">{% if result %}<div class="prediction-card"><div class="pred-top"><span>MODEL RESULT</span><span class="ai-pill">● AI ANALYSIS</span></div>
+<div class="priority-result"><small>Predicted priority</small><strong>{{result.priority}}</strong><div class="priority-line"><i></i></div></div>
+<div class="result-mini"><div><small>Naive Bayes</small><b>{{result.alt}}</b></div><div><small>Resolution</small><b>{{result.resolution}} days</b></div><div><small>Risk</small><b>{{result.risk}}</b></div></div>
+<div class="recommendation"><span>✦</span><div><b>Recommended action</b><p>{{result.recommendation}}</p></div></div></div>
+{% else %}<div class="empty-ai"><div class="ai-orb">✦</div><h2>Ready to analyze</h2><p>Enter complaint details and run the mining models to generate an actionable result.</p></div>{% endif %}</div></div>
+{% endblock %}

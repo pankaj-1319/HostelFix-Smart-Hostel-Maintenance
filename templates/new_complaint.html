@@ -1,0 +1,13 @@
+{% extends "base.html" %}{% block content %}
+<div class="page-title"><div><div class="kicker">NEW REQUEST</div><h1>Submit a complaint</h1><p>Add a maintenance issue and let the team take it from there.</p></div></div>
+<form method="POST" class="form-panel"><div class="form-section"><h3>Reporter details</h3><div class="form-grid">
+<label>Student name<input required name="name" placeholder="e.g. Pankaj Singh"></label><label>Room number<input required name="room" placeholder="e.g. B-204"></label>
+<label>Hostel block<select name="block">{% for x in ['A','B','C','D'] %}<option>{{x}}</option>{% endfor %}</select></label>
+</div></div><div class="form-section"><h3>Issue details</h3><div class="form-grid">
+<label>Complaint type<select name="complaint_type">{% for x in ['Water Leakage','Electricity','Wi-Fi','Cleaning','Furniture','Fan/AC','Plumbing'] %}<option>{{x}}</option>{% endfor %}</select></label>
+<label>Location<select name="location">{% for x in ['Bathroom','Room','Corridor','Common Area','Study Room','Mess'] %}<option>{{x}}</option>{% endfor %}</select></label>
+<label>Severity<select name="severity"><option>Low</option><option>Medium</option><option>High</option><option>Urgent</option></select></label>
+<label>Days pending<input type="number" min="0" value="0" name="days_pending"></label><label>Affected rooms<input type="number" min="1" value="1" name="affected_rooms"></label>
+<label class="full">Description<textarea name="description" rows="4" placeholder="Describe the problem..."></textarea></label>
+</div></div><div class="form-footer"><a class="ghost-btn" href="/complaints">Cancel</a><button class="primary-btn">Submit complaint</button></div></form>
+{% endblock %}

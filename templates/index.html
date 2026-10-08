@@ -1,0 +1,55 @@
+{% extends "base.html" %}
+{% block content %}
+<section class="hero">
+  <div>
+    <p class="eyebrow">SMART HOSTEL MAINTENANCE</p>
+    <h1>Turn complaints into <span>actionable insights.</span></h1>
+    <p>Analyze hostel maintenance complaints using classification, regression, clustering and association-rule concepts.</p>
+    <a class="btn" href="/predict">Analyze a Complaint →</a>
+  </div>
+</section>
+
+<div class="cards">
+  <div class="card"><small>Total Complaints</small><strong>{{ total }}</strong></div>
+  <div class="card"><small>Pending Complaints</small><strong>{{ pending }}</strong></div>
+  <div class="card"><small>High / Urgent</small><strong>{{ high }}</strong></div>
+  <div class="card"><small>Avg. Resolution</small><strong>{{ avg_time }} days</strong></div>
+</div>
+
+<div class="grid2">
+  <section class="panel">
+    <h2>Complaint Categories</h2>
+    <canvas id="typeChart"></canvas>
+  </section>
+  <section class="panel">
+    <h2>Priority Distribution</h2>
+    <canvas id="priorityChart"></canvas>
+  </section>
+</div>
+
+<section class="panel">
+<h2>What this project demonstrates</h2>
+<div class="features">
+  <div><b>J48</b><p>Predict complaint priority.</p></div>
+  <div><b>Naive Bayes</b><p>Independent classification check.</p></div>
+  <div><b>Regression</b><p>Estimate resolution time.</p></div>
+  <div><b>K-Means</b><p>Group similar complaints.</p></div>
+  <div><b>Apriori</b><p>Find recurring relationships.</p></div>
+</div>
+</section>
+
+<script>
+const typeLabels = {{ type_counts.keys()|list|tojson }};
+const typeValues = {{ type_counts.values()|list|tojson }};
+new Chart(document.getElementById('typeChart'), {
+ type:'bar', data:{labels:typeLabels,datasets:[{label:'Complaints',data:typeValues}]},
+ options:{responsive:true,plugins:{legend:{display:false}}}
+});
+const pLabels = {{ priority_counts.keys()|list|tojson }};
+const pValues = {{ priority_counts.values()|list|tojson }};
+new Chart(document.getElementById('priorityChart'), {
+ type:'doughnut', data:{labels:pLabels,datasets:[{data:pValues}]},
+ options:{responsive:true}
+});
+</script>
+{% endblock %}

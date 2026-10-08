@@ -1,0 +1,21 @@
+{% extends "base.html" %}{% block content %}
+<div class="page-title"><div><div class="kicker">MAINTENANCE COMMAND CENTER</div><h1>Good {% if current_user %}day, {{current_user}}{% else %}day{% endif %} 👋</h1><p>Here's what's happening across your hostel maintenance operations.</p></div><a class="primary-btn" href="/complaints/new">＋ New complaint</a></div>
+<div class="stat-grid">
+<div class="stat-card"><div class="stat-icon purple">▣</div><span>Total complaints</span><b>{{total}}</b><small>All recorded requests</small></div>
+<div class="stat-card"><div class="stat-icon amber">◷</div><span>Pending</span><b>{{pending}}</b><small>Need attention</small></div>
+<div class="stat-card"><div class="stat-icon blue">↻</div><span>In progress</span><b>{{progress}}</b><small>Being handled</small></div>
+<div class="stat-card"><div class="stat-icon green">✓</div><span>Resolved</span><b>{{resolved}}</b><small>Completed requests</small></div>
+</div>
+<div class="dashboard-grid">
+<section class="panel large"><div class="panel-head"><div><h2>Complaint overview</h2><p>Most reported maintenance categories</p></div><a href="/analytics" class="text-btn">View analytics →</a></div><canvas id="overviewChart" height="105"></canvas></section>
+<section class="panel"><div class="panel-head"><div><h2>Severity</h2><p>Current complaint mix</p></div></div><canvas id="severityChart" height="180"></canvas></section>
+</div>
+<section class="panel"><div class="panel-head"><div><h2>Recent complaints</h2><p>Latest maintenance activity</p></div><a class="text-btn" href="/complaints">See all →</a></div>
+<div class="table-wrap"><table><thead><tr><th>Complaint</th><th>Location</th><th>Severity</th><th>Status</th><th>Reported</th></tr></thead><tbody>
+{% for r in recent %}<tr><td><div class="complaint-cell"><div class="mini-icon">{{r.complaint_type[0]}}</div><div><b>{{r.complaint_type}}</b><small>{{r.name}} · Room {{r.room}}</small></div></div></td><td>{{r.location}}</td><td><span class="badge {{r.severity|lower}}">{{r.severity}}</span></td><td><span class="status {{r.status|lower|replace(' ','-')}}">{{r.status}}</span></td><td>{{r.created_at}}</td></tr>{% endfor %}
+</tbody></table></div></section>
+<script>
+new Chart(document.getElementById('overviewChart'),{type:'bar',data:{labels:{{types.keys()|list|tojson}},datasets:[{data:{{types.values()|list|tojson}},borderRadius:7,backgroundColor:'#6d5dfc'}]},options:{plugins:{legend:{display:false}},scales:{y:{beginAtZero:true,grid:{color:'#edf0f5'}},x:{grid:{display:false}}}}});
+new Chart(document.getElementById('severityChart'),{type:'doughnut',data:{labels:{{priorities.keys()|list|tojson}},datasets:[{data:{{priorities.values()|list|tojson}},backgroundColor:['#22c55e','#f59e0b','#ef4444','#7c3aed'],borderWidth:0}]},options:{cutout:'70%',plugins:{legend:{position:'bottom',labels:{usePointStyle:true,padding:16}}}}});
+</script>
+{% endblock %}

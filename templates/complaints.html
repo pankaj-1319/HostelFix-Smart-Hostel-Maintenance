@@ -1,0 +1,7 @@
+{% extends "base.html" %}{% block content %}
+<div class="page-title"><div><div class="kicker">MAINTENANCE REQUESTS</div><h1>Complaints</h1><p>Track, prioritize and update every maintenance request.</p></div><a class="primary-btn" href="/complaints/new">＋ New complaint</a></div>
+<section class="panel"><div class="toolbar"><div class="search">⌕ <input id="search" placeholder="Search complaints..." onkeyup="filterTable()"></div><div class="toolbar-note">{{complaints|length}} records</div></div>
+<div class="table-wrap"><table id="complaintTable"><thead><tr><th>ID</th><th>Student</th><th>Issue</th><th>Location</th><th>Severity</th><th>Status</th><th>Action</th></tr></thead><tbody>
+{% for r in complaints %}<tr><td class="muted">#{{'%04d'|format(r.id)}}</td><td><b>{{r.name}}</b><small>Room {{r.room}} · Block {{r.block}}</small></td><td><b>{{r.complaint_type}}</b><small>{{r.description[:42] if r.description else 'No description'}}</small></td><td>{{r.location}}</td><td><span class="badge {{r.severity|lower}}">{{r.severity}}</span></td><td><span class="status {{r.status|lower|replace(' ','-')}}">{{r.status}}</span></td><td><div class="actions"><form method="POST" action="/complaints/{{r.id}}/status/In Progress"><button>→</button></form><form method="POST" action="/complaints/{{r.id}}/status/Resolved"><button>✓</button></form></div></td></tr>{% endfor %}
+</tbody></table></div></section>
+{% endblock %}

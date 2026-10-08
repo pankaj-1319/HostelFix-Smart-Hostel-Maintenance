@@ -1,0 +1,18 @@
+APRIORI ASSOCIATION-RULE DEMONSTRATION
+======================================
+
+Example transactions can be derived from complaint attributes.
+
+Rule 1:
+Bathroom + Water Leakage -> High/Urgent Priority
+
+Rule 2:
+Previous Complaints >= 5 + Days Pending >= 3 -> High/Urgent Priority
+
+Rule 3:
+Multiple Affected Rooms + High Severity -> Urgent Priority
+
+For the college practical, open the ARFF file in WEKA:
+Explorer -> Associate -> Apriori -> Start
+
+Record the generated Support, Confidence and Lift values in your report.
